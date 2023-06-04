@@ -70,3 +70,9 @@ footer{
     display: block;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .step-box{
+    margin-bottom: 30px;
+   }
+  }
