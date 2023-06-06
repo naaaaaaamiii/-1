@@ -74,14 +74,23 @@ footer{
 
 @media screen and (max-width: 768px) {
   .step-box{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .step-box:last-child{
     margin-right: auto;
+    margin-bottom: 50px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .step-box:fast-child{
+    margin-top: 50px;
+  }
+}
+
